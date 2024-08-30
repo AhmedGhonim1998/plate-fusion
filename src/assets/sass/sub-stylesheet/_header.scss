@@ -4,18 +4,16 @@
     background: transparent;
     @extend %abs;
     @extend %w-100;
-    z-index: 999;
+    
 
     &.header-fixed {
-        position: fixed;
-        @extend %w-100;
         top: 0;
         left: 0;
         animation: fadeInDown .5s;
         -webkit-animation: fadeInDown .5s;
         -moz-animation: fadeInDown .5s;
         box-shadow: 0 0 10px rgba($color:$title-color, $alpha:.1);
-        z-index: 999;
+        
 
         @include breakpoint(lg) {
             top: -48px;
