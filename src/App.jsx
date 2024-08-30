@@ -14,8 +14,8 @@ function App() {
   };
   return (
     <>
-    <h1>Create Your Custom License Plate</h1>
-    <LicensePlateDisplay/>
+    {/* <h1>Create Your Custom License Plate</h1>
+    <LicensePlateDisplay/> */}
     </>
   )
 }

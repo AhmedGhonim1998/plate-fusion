@@ -12,7 +12,7 @@
     const imageRef = useRef(null);
 
     // Maximum characters allowed
-    const maxChars = 13;
+    const maxChars = 9;
 
     useEffect(() => {
         const img = new window.Image();
