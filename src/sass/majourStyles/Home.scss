@@ -7,4 +7,50 @@ body{
 
 .SwiperBackGround{
     background-color: #EBCB42;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.arrowBg{
+    background-color: #fff;
+}
+.seeVideosBtn{
+    .arrowBg{
+        border-radius: 150px;
+        width: 20px;
+        .arrowRight
+{
+            color: #FA662D;
+        }
+    }
+}
+.carSlide{
+    height: 150px;
+}
+
+.carSwiperContainer {
+    width: 100%;
+    max-width: 100%;
+    /* Optional: adjust container height if needed */
+}
+
+.mySwiper {
+    width: 100%;
+    height: auto; /* Adjust based on your image aspect ratio */
+}
+
+.swiperSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.swiperImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+     /* Adjust if needed */
 }
